@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Video</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body{
+            background:#1a0c68;
+            margin:0;
+            font-family: Georgia, serif;
+        }
+
+        /* Header */
+        .hero-navbar{
+            background:
+                linear-gradient(
+                    135deg,
+                    #1a0c68 0%,
+                    #5e214e 35%,
+                    #18055a 65%,
+                    #dc564f 100%
+                );
+            min-height:220px;
+        }
+
+        .logo-btn{
+            background:none;
+            border:none;
+            padding:0;
+        }
+
+        .logo-btn img{
+            height:180px;
+        }
+
+        .nav-link-custom{
+            color:white;
+            font-size:2rem;
+            font-weight:600;
+            text-decoration:none;
+            padding:0 .5rem;
+        }
+
+        .nav-link-custom:hover{
+            color:#ddd;
+        }
+
+        .title-section{
+            background:#1f2367;
+            color:white;
+            height:350px;
+        }
+
+        .title-section h1{
+            font-size:7rem;
+            font-weight:500;
+            letter-spacing:2px;
+        }
+
+        .carousel-wrapper{
+            min-height:750px;
+            background:#1f2367;
+        }
+
+        .carousel-title{
+            font-size:3rem;
+            font-weight:bold;
+        }
+
+        .video-slide{
+            height:600px;
+        }
+
+        .video-slide iframe{
+            width:100%;
+            height:100%;
+            border:none;
+        }
+
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon{
+            background-color:#b0b0b0;
+            padding:40px;
+        }
+
+        footer{
+            background:
+                linear-gradient(
+                    135deg,
+                    #1a0c68 0%,
+                    #5e214e 35%,
+                    #18055a 65%,
+                    #dc564f 100%
+                );
+            color:white;
+            height:160px;
+        }
+
+        footer p{
+            font-size:2rem;
+            font-weight:600;
+            margin:0;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar hero-navbar navbar-expand-lg">
+        <div class="container-fluid">
+
+            <a class="logo-btn navbar-brand" href="index.html">
+                <img src="img/TSO.png" alt="Logo">
+            </a>
+
+            <div class="collapse navbar-collapse justify-content-center show">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link-custom" href="about.html">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link-custom" href="music.html">| Music</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link-custom" href="discography.html">| Discography</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link-custom" href="tour.html">| Tour</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link-custom" href="tour.html">| News</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link-custom" href="discography.html">| Streaming</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    
+    <section class="carousel-wrapper py-5">
+
+        <div class="container text-center">
+
+
+
+            <div id="videoCarousel"
+                 class="carousel slide"
+                 data-bs-ride="false">
+
+                <div class="carousel-inner">
+
+                    <!-- VIDEO 1 -->
+                    <div class="carousel-item active">
+                        <div class="video-slide">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/FftfOCSg8aY?si=VdF8OQ61ZPmayiQ9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                               
+                        </div>
+                    </div>
+
+                    <!-- VIDEO 2 -->
+                    <div class="carousel-item">
+                        <div class="video-slide">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/qRzkJHoDjAo?si=BULL9kNbd02chqM7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                    <!-- VIDEO 3 -->
+                    <div class="carousel-item">
+                        <div class="video-slide">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/NPnYBv5-Quo?si=rG4AhGCraHa4FdF3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                    <!-- VIDEO 4 -->
+                    <div class="carousel-item">
+                        <div class="video-slide">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/BJXQYx7j_3I?si=VGUlkkFm1Ece87Ym" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                    <!-- VIDEO 5 -->
+                    <div class="carousel-item">
+                        <div class="video-slide">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/jAJ5ABkpoMA?si=S50fDWHv8Ugmh5hv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                    <!-- VIDEO 6 -->
+                    <div class="carousel-item">
+                        <div class="video-slide">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/4cP26ndrmtg?si=UfX8DaHVEnMKss3N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                    <!-- VIDEO 7 -->
+                    <div class="carousel-item">
+                        <div class="video-slide">
+                           <iframe width="560" height="315" src="https://www.youtube.com/embed/MHioIlbnS_A?si=Pp5i12Rs3Rh-RJs7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                    <!-- VIDEO 8 -->
+                    <div class="carousel-item">
+                        <div class="video-slide">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/pWBjl-jPcVM?si=BiNRG1Uu7zGlBbTD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                    <!-- VIDEO 9 -->
+                    <div class="carousel-item">
+                        <div class="video-slide">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/9P7GH3tozpI?si=1tmkmLO8Wrnu3OIj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                    <!-- VIDEO 10 -->
+                    <div class="carousel-item">
+                        <div class="video-slide">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/CLfNgYF1h-Y?si=asvb4vElLOFxRnoH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Previous -->
+                <button class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#videoCarousel"
+                        data-bs-slide="prev">
+
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+
+                <!-- Next -->
+                <button class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#videoCarousel"
+                        data-bs-slide="next">
+
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="d-flex justify-content-center align-items-center">
+        <p>
+            2026 Trans-Siberian Orchestra All Rights Reserved
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

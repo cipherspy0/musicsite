@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trans-Siberian Orchestra</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            min-height: 100vh;
+            background: url("img/Backdrop.png") center center/cover no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero-box {
+            background: rgba(40, 40, 50, .75);
+            backdrop-filter: blur(4px);
+            border-radius: 50px;
+            max-width: 1100px;
+            width: 90%;
+            padding: 70px 40px;
+        }
+
+        .logo {
+            max-width: 850px;
+            width: 100%;
+            height: auto;
+        }
+
+        .nav-box {
+            background: #8d0000;
+            border-radius: 20px;
+            padding: 18px 30px;
+            display: inline-block;
+        }
+
+        .nav-box a {
+            color: white;
+            text-decoration: none;
+            font-size: 2rem;
+            font-weight: 600;
+            font-family: Georgia, serif;
+        }
+
+        .nav-box a:hover {
+            color: #e0e0e0;
+        }
+
+        .social-section {
+            margin-top: 200px;
+        }
+
+        .social-icon {
+            width: 90px;
+            height: 90px;
+            object-fit: contain;
+        }
+
+        @media (max-width: 768px) {
+
+            .nav-box a {
+                display: block;
+                text-align: center;
+                font-size: 1.3rem;
+                padding: 5px 0;
+            }
+
+            .nav-divider {
+                display: none;
+            }
+
+            .social-icon {
+                width: 70px;
+                height: 70px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Main Panel -->
+    <div class="hero-box text-center">
+
+        <!-- Logo -->
+        <img src="img/TSO Long.png"
+             alt="Trans-Siberian Orchestra"
+             class="logo img-fluid mb-5">
+
+        <!-- Navigation -->
+        <div class="nav-box">
+
+            <a href="about.html">About</a>
+
+            <span class="text-white nav-divider"> | </span>
+
+            <a href="music.html">Music</a>
+
+            <span class="text-white nav-divider"> | </span>
+
+            <a href="discography.html">Discography</a>
+
+            <span class="text-white nav-divider"> | </span>
+
+            <a href="tour.html">Tour</a>
+
+            <span class="text-white nav-divider"> | </span>
+
+            <a href="tour.html">News</a>
+
+            <span class="text-white nav-divider"> | </span>
+
+            <a href="discography.html">Streaming</a>
+
+        </div>
+
+    </div>
+
+    <!-- Social Icons -->
+    <div class="social-section">
+        <div class="d-flex gap-4 justify-content-center">
+
+            <a href="https://x.com/trans_siberian">
+                <img src="img/X.png"
+                     alt="X"
+                     class="social-icon">
+            </a>
+
+            <a href="https://www.facebook.com/TSO/">
+                <img src="img/facebook.png"
+                     alt="Facebook"
+                     class="social-icon">
+            </a>
+
+            <a href="https://www.instagram.com/transsiberianorchestra/?hl=en">
+                <img src="img/insta.png"
+                     alt="Instagram"
+                     class="social-icon">
+            </a>
